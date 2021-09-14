@@ -23,7 +23,7 @@ public class ex11_santana
         String exch = in2.nextLine();
         double n2 = Double.parseDouble(exch);
         double us = (n1*n2);
-        System.out.println(n1 + " euros at an exchange rate of " + n2 + " is \n" + us + " U.S. dollars.");
+        System.out.printf("%d euros at an exchange rate of %.4f is \n%.2f U.S. dollars.",n1,n2,us);
 
     }
 }
